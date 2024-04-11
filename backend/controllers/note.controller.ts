@@ -4,11 +4,9 @@ import Note from '../models/note.model';
 
 export const createNote = async (req: Request, res: Response) => {
     try {
-        const { title, content, date } = req.body;
+        const { content } = req.body;
         const note = new Note({
-            title,
-            content,
-            date
+            content
         });
         await note.save();
         return res.status(201).json(note);
@@ -44,12 +42,7 @@ export const getAllNotes = async (req: Request, res: Response) => {
 export const updateNote = async (req: Request, res: Response) => {
     try {
         const { title, content, date } = req.body;
-        console.log("TITLE:", title)
-        console.log("content:", content)
-        console.log("date:", date)
-        console.log("ID:", req.params.id)
         const note = await Note.findByIdAndUpdate(req.params.id, { title, content, date });
-        console.log("NOTE:", note)
         if (!note) {
             return res.status(404).json({ message: 'Note not found' });
         }
@@ -66,7 +59,6 @@ export const deleteNote = async (req: Request, res: Response) => {
         if (!note) {
             return res.status(404).json({ message: 'Note not found' });
         }
-        console.log("RESOPONSE:", res)
         return res.status(204).end();
     } catch (error) {
         console.log("This is the Delete error", error)

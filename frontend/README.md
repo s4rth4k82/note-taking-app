@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Tiptap Rich Text Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This `Tiptap` Rich Text Editor is a web app allowing users to generate and modify rich text content easily. Built using React, Tailwind CSS, and Tiptap.
 
-## Available Scripts
+## 📦 Technologies
+- `ReactJS`
+- `Tiptap - Rich text editor`
+- `Tailwind CSS + Daisy UI`
+- `Vite - Build tool`
 
-In the project directory, you can run:
+## 🚀 Features
+This Tiptap Rich Text Editor includes the following features:
 
-### `npm start`
+- Basic Text Formatting: Bold, italic, underline, strikethrough, code, etc.
+- Text Styling: Change font family, and size.
+- Text Alignment: Align text left, center, right, or justify.
+- Lists: Create ordered and unordered lists.
+- Headings: Apply different heading styles.
+- Links: Insert and edit hyperlinks.
+- Images: Add images within the editor.
+- Subscript and Superscript: Format text as subscript or superscript.
+- Highlighting: Highlight text.
+- Blockquotes and Horizontal Rule: Insert blockquotes and horizontal lines.
+- Undo and Redo content.
+- Save Content: Save edited content for display.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+# Install dependencies
+npm install
 
-### `npm test`
+# Run react dev server :3000
+npm run dev
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
