@@ -44,7 +44,12 @@ export const getAllNotes = async (req: Request, res: Response) => {
 export const updateNote = async (req: Request, res: Response) => {
     try {
         const { title, content, date } = req.body;
-        const note = await Note.findByIdAndUpdate(req.params.id, { title, content }, { new: true });
+        console.log("TITLE:", title)
+        console.log("content:", content)
+        console.log("date:", date)
+        console.log("ID:", req.params.id)
+        const note = await Note.findByIdAndUpdate(req.params.id, { title, content, date });
+        console.log("NOTE:", note)
         if (!note) {
             return res.status(404).json({ message: 'Note not found' });
         }
