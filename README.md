@@ -42,7 +42,8 @@ users to generate and modify rich text content easily.
 5) Start the localhost server 3000
    ```bash
    npm run dev
-## 📷Screenshots
+## 📷Screenshots and Recordings
+https://drive.google.com/file/d/1R3Z7PP4au9XgDR2-zs95TO2yfZrrZw7j/view?usp=sharing
 ![image](https://github.com/s4rth4k82/note-taking-app/assets/166211539/a9d92462-f38c-45cd-a015-318861ab5016)
 ![image](https://github.com/s4rth4k82/note-taking-app/assets/166211539/ffa24f2a-dc62-4f01-bee3-b16b72cdf636)
 ![image](https://github.com/s4rth4k82/note-taking-app/assets/166211539/2f6f45b7-24de-483e-8dd9-3ce645248156)
